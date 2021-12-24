@@ -3,13 +3,27 @@ import { Section } from '../layout/Section';
 
 const VerticalFeaturesOne = () => (
   <Section
-    title="Factory in a Box (FiaB)"
+    title="Factory in a Box (FIAB)"
     description="A rapidly deployable, remotely managed, modular manufacturing supply chain network enabled by industrial digital technologies. Using recent advances in 2D Materials, 3D Printing, Manufacturing Technologies and Robotics.. "
   >
     <VerticalFeatureRow
-      description="Creating robots that can be taught by anyone requires tackling some of the hardest challenges in the field of robotics. The Everyday Robot Project is developing a general-purpose learning robot that can operate autonomously in unstructured environments"
+      description="FIAB manufacture is a rapid route to market for products with a faster return on investment on its manufacturing innovation and new disruptive business models for the supply chain. FIAB allows automated, autonomous, intelligent manufacturing processes to be accessed at an affordable cost to SMEs and has the potential to revolutionise the innovation pipe line, where the transition to scale up and manufacture has often been a pinch point."
       image="/assets/images/coditor.svg"
       imageAlt="Coditor"
+    />
+
+    <VerticalFeatureRow
+      description="Robotory proof of concept unit built and installed in a standard shipping container, includes all the equipment necessary to manufacture modular AMR robots. An autonomous mobile robot (AMR) is a type of robot that can understand and move through its environment without being overseen directly by an operator or limited to a fixed, predetermined path."
+      image="/assets/images/simtropolis.svg"
+      imageAlt="Second feature alt text"
+      reverse
+    />
+
+    <VerticalFeatureRow
+      description="Beyond rapid new product introduction, there a number of potential use cases for its factory-in-a-box concept. It could help established manufacturers to rapidly restart production after a disruptive event such as a fire or natural disaster. Or it could allow manufacturers to meet country-of-origin requirements, shifting their production footprint temporarily and producing sufficient volume to meet local market requirements"
+      image="/assets/images/simtropolis.svg"
+      imageAlt="Second feature alt text"
+      reverse
     />
   </Section>
 );
