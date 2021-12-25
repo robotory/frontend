@@ -1,4 +1,5 @@
-# frontend
+# RobotFactory-Frontend
+
 Robot Factory frontend landing page powered by Next.js 12+, Tailwind CSS 2.0 and TypeScript
 
 Built-in feature from Next.js:
@@ -30,7 +31,7 @@ Built-in feature from Next.js:
 Run the following command on your local environment:
 
 ```
-git clone --depth=1 https://github.com/devsocialtech/landing.git my-project-name
+git clone --depth=1 https://github.com/robotory/frontend.git my-project-name
 cd my-project-name
 npm install
 ```
@@ -41,7 +42,7 @@ Then, you can run locally in development mode with live reload:
 npm run dev
 ```
 
-Open http://localhost:3000 with your favorite browser to see your project. For your information, Next JS need to take some time to compile the project for your first time.
+Open <http://localhost:3000> with your favorite browser to see your project. For your information, Next JS need to take some time to compile the project for your first time.
 
 ```
 .
@@ -72,8 +73,8 @@ Open http://localhost:3000 with your favorite browser to see your project. For y
 You can see the results locally in production mode with:
 
 ```
-$ npm run build
-$ npm run start
+npm run build
+npm run start
 ```
 
 The generated HTML and CSS files are minified (built-in feature from Next js). It will also removed unused CSS from [Tailwind CSS](https://tailwindcss.com).
@@ -88,6 +89,4 @@ npm run build-prod
 
 Clone this repository on own GitHub account and deploy to Netlify:
 
-[![Netlify Deploy button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/devsocialtech/landing)
-
-
+[![Netlify Deploy button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/robotory/frontend)

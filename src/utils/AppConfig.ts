@@ -1,6 +1,7 @@
 export const AppConfig = {
   site_name: '',
-  title: 'SocialTech',
-  description: 'Open platform to socialise key technologies and empower choice',
+  title: 'Robot Factory',
+  description:
+    'Creating social spaces to advance the state of robotics and automation across the world.',
   locale: 'en',
 };
